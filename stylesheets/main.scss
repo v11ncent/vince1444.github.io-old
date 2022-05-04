@@ -1,0 +1,12 @@
+// Configuration and helpers
+@import
+  'abstracts/variables';
+ 
+// Base
+@import
+  'base/reset',
+  'base/typography';
+
+// Page-specific styles
+@import
+  'pages/home';
