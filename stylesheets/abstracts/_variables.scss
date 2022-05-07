@@ -54,3 +54,8 @@ $body__line-height: 1.5;
  */
 
 $breakpoint__mobile: 1000px;
+
+/*
+ * Shadows
+ */
+$shadow: drop-shadow(-6px 95px 38px rgba(0, 0, 0, 0.01)) drop-shadow(-3px 53px 32px rgba(0, 0, 0, 0.05)) drop-shadow(-2px 24px 24px rgba(0, 0, 0, 0.09)) drop-shadow(0px 6px 13px rgba(0, 0, 0, 0.1)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.1));

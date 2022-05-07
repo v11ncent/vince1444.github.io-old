@@ -3,12 +3,14 @@ main {
     justify-content: space-around;
     align-items: center;
     line-height: $hero__line-height;
+    
 
     .header {
         font-family: $primary__font-family;
         font-size: $hero__header-size;
         font-weight: $font__weight-bold;
         color: $font__black-high;
+        filter: $shadow;    
     }
 
     .subheader {
@@ -20,19 +22,19 @@ main {
 
     
     img {
-        @media (max-width: $breakpoint__mobile) {
+        margin: 3em;
+        filter: $shadow;
+         @media (max-width: $breakpoint__mobile) {
             display: none;
         }
     }
 
     a {
-        margin-top: 1em;
+        margin-top: 2em;
         size: $hero__anchor-size;
     }
 
-    @media (max-width: $breakpoint__mobile) {
-        text-align: center;
-    }
+   
 }
 
 
