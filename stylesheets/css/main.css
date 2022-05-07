@@ -1,3 +1,25 @@
+/* BEM Naming Convention
+ * Block-Element-Modifier
+ * https://en.bem.info/methodology/naming-convention/
+ */
+/*
+ * Colours
+ */
+/*
+ * Fonts
+ */
+/*
+ * Font Sizes
+ */
+/*
+ * Font Weights
+ */
+/*
+ * Line Heights
+ */
+/*
+ * Breakpoints
+ */
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -45,8 +67,65 @@ input {
   border-radius: 0;
 }
 
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 1.2;
+}
+main .header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: black;
+}
+main .subheader {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+@media (max-width: 1000px) {
+  main img {
+    display: none;
+  }
+}
+main a {
+  margin-top: 1em;
+  size: 1.25rem;
+}
+@media (max-width: 1000px) {
+  main {
+    text-align: center;
+  }
+}
+
 body {
   background: #F1F1F1;
+  padding: 1rem;
+}
+
+.accent__color {
+  color: #5F33BD;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  color: black;
+  display: inline-block;
+}
+
+a::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  color: #5F33BD;
 }
 
 /*# sourceMappingURL=main.css.map */

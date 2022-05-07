@@ -1,0 +1,38 @@
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: $hero__line-height;
+
+    .header {
+        font-family: $primary__font-family;
+        font-size: $hero__header-size;
+        font-weight: $font__weight-bold;
+        color: $font__black-high;
+    }
+
+    .subheader {
+        font-family: $secondary__font-family;
+        font-size: $hero__subheader-size;
+        font-weight: $font__weight-regular;
+        color: $font__black-medium;
+    }
+
+    
+    img {
+        @media (max-width: $breakpoint__mobile) {
+            display: none;
+        }
+    }
+
+    a {
+        margin-top: 1em;
+        size: $hero__anchor-size;
+    }
+
+    @media (max-width: $breakpoint__mobile) {
+        text-align: center;
+    }
+}
+
+

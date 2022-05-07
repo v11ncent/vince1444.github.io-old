@@ -7,6 +7,10 @@
   'base/reset',
   'base/typography';
 
+// Layout
+@import 
+  'layout/_hero.scss';
+
 // Page-specific styles
 @import
   'pages/home';

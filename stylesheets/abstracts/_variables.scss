@@ -1,0 +1,56 @@
+/* BEM Naming Convention
+ * Block-Element-Modifier
+ * https://en.bem.info/methodology/naming-convention/
+ */
+
+/*
+ * Colours
+ */
+
+$primary__background-color: #F1F1F1;
+
+$font__black-high: rgba(0, 0, 0, 1);
+$font__black-medium: rgba(0, 0, 0, 0.6);
+$font__black-disabled: rgba(0, 0, 0, 0.3);
+
+$accent__color: #5F33BD;
+
+
+/*
+ * Fonts
+ */
+
+$primary__font-family: 'Montserrat', sans-serif;
+$secondary__font-family: 'Outfit', sans-serif;
+
+/*
+ * Font Sizes
+ */
+
+$hero__header-size: 2.5rem;
+$hero__subheader-size: 1.5rem;
+$hero__anchor-size: 1.25rem;
+
+/*
+ * Font Weights
+ */
+
+$font__weight-black: 900;
+$font__weight-bold: 700;
+$font__weight-semibold: 600;
+$font__weight-medium: 500;
+$font__weight-regular: 400;
+$font__weight-light: 300;
+
+/*
+ * Line Heights
+ */
+
+$hero__line-height: 1.2;
+$body__line-height: 1.5;
+
+/*
+ * Breakpoints
+ */
+
+$breakpoint__mobile: 1000px;
